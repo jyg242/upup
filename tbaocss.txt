@@ -1,0 +1,127 @@
+淘宝css自定义命名规则 
+
+CSS命名规矩
+　　头：header
+　　内容：content/containe
+　　尾：footer
+　　导航：nav
+　　侧栏：sidebar
+　　栏目：column
+　　页面外围把持整体布局宽度：wrapper
+　　左右中：left right center
+　　登录条：loginbar
+　　标志：logo
+　　广告：banner
+　　页面主体：main
+　　热门：hot
+　　新闻：news
+　　下载：download
+　　子导航：subnav
+　　菜单：menu
+　　子菜单：submenu
+　　搜索：search
+　　友谊链接：friendlink
+　　页脚：footer
+　　版权：copyright
+　　转动：scroll
+　　内容：content
+　　标签页：tab
+　　文章列表：list
+　　提醒信息：msg
+　　小技巧：tips
+　　栏目题目：title
+　　加入：joinus
+　　指南：guild
+　　服务：service
+　　注册：regsiter
+　　状况：status
+　　投票：vote
+　　配合搭档：partner
+
+XHTML文件中id的命名
+
+(1)页面构造
+　　容器: container
+　　页头：header
+　　内容：content/container
+　　页面主体：main
+　　页尾：footer
+　　导航：nav
+　　侧栏：sidebar
+　　栏目：column
+　　页面外围节制整体布局宽度：wrapper
+　　左右中：left right center
+(2)导航
+　　导航：nav
+　　主导航：mainbav
+　　子导航：subnav
+　　顶导航：topnav
+　　边导航：sidebar
+　　左导航：leftsidebar
+　　右导航：rightsidebar
+　　菜单：menu
+　　子菜单：submenu
+　　标题: title
+　　摘要: summary
+(3)功能
+　　标记：logo
+　　广告：banner
+　　登陆：login
+　　登录条：loginbar
+　　注册：regsiter
+　　搜寻：search
+　　功能区：shop
+　　标题：title
+　　参加：joinus
+　　状态：status
+　　按钮：btn
+　　滚动：scroll
+　　标签页：tab
+　　文章列表：list
+　　提示信息：msg
+　　当前的: current
+　　小技能：tips
+　　图标: icon
+　　解释：note
+　　指南：guild
+　　服务：service
+　　热点：hot
+　　消息：news
+　　下载：download
+　　投票：vote
+　　协作伙伴：partner
+　　友情链接：link
+　　版权：copyright
+
+XHTML文件中class的命名
+
+(1)颜色:使用色彩的名称或者16进制代码,如(不倡议以表示来命名)
+　　.red { color: red; }
+　　.f60 { color: #f60; }
+　　.ff8600 { color: #ff8600; }
+(2)字体大小，,直接应用"font+字体大小"作为名称,如
+　　.font12px { font-size: 12px; }
+　　.font9pt {font-size: 9pt; }
+(3)对齐款式,使用对齐目的的英文名称,如
+　　.left { float:left; }
+　　.bottom { float:bottom; }
+(4)标题栏样式，淘宝网女装冬装外套,使用"种别+功效"的方法命名,如
+　　.barnews { }
+　　.barproduct { }
+
+其它相干留神事项
+
+　　1.一律小写;
+　　2.尽量用英文;
+　　3.不加中杠跟下划线;
+　　4.尽量不缩写，除非一看就清楚的单词.
+　　　　重要的 master.css
+　　　　模块 module.css
+　　　　基础共用 base.css
+　　　　布局，版面 layout.css
+　　　　主题 themes.css
+　　　　专栏 columns.css
+　　　　文字 font.css
+　　　　表单 forms.css
+　　　　补丁 mend.css
+　　　　打印 print.css 
